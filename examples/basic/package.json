@@ -1,0 +1,10 @@
+{
+  "name": "passport-anonymous-example",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": ">= 2.x.x",
+    "passport": ">= 0.0.0",
+    "passport-http": ">= 0.0.0",
+    "passport-anonymous": ">= 0.0.0"
+  }
+}

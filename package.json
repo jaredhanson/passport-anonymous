@@ -1,6 +1,6 @@
 {
   "name": "passport-anonymous",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Anonymous authentication strategy for Passport.",
   "keywords": ["passport", "anonymous", "authn", "authentication"],
   "repository": {

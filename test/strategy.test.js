@@ -11,7 +11,7 @@ describe('Strategy', function() {
   });
   
   describe('handling a request', function() {
-    var ok;
+    var ok, request;
     
     before(function(done) {
       chai.passport(strategy)
@@ -20,12 +20,17 @@ describe('Strategy', function() {
           done();
         })
         .req(function(req) {
+          request = req;
         })
         .authenticate();
     });
     
     it('should call pass', function() {
       expect(ok).to.be.true;
+    });
+    
+    it('should leave req.user undefined', function() {
+      expect(request.user).to.be.undefined;
     });
   });
   

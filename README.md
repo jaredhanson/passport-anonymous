@@ -1,4 +1,9 @@
-# Passport-Anonymous
+# passport-anonymous
+
+[![Build](https://travis-ci.org/jaredhanson/passport-anonymous.png)](http://travis-ci.org/jaredhanson/passport-anonymous)
+[![Coverage](https://coveralls.io/repos/jaredhanson/passport-anonymous/badge.png)](https://coveralls.io/r/jaredhanson/passport-anonymous)
+[![Dependencies](https://david-dm.org/jaredhanson/passport-anonymous.png)](http://david-dm.org/jaredhanson/passport-anonymous)
+
 
 [Passport](http://passportjs.org/) strategy for anonymous authentication.
 
@@ -47,10 +52,8 @@ For a complete, working example, refer to the [login example](https://github.com
 
 ## Tests
 
-    $ npm install --dev
-    $ make test
-
-[![Build Status](https://secure.travis-ci.org/jaredhanson/passport-anonymous.png)](http://travis-ci.org/jaredhanson/passport-anonymous)
+    $ npm install
+    $ npm test
 
 ## Credits
 

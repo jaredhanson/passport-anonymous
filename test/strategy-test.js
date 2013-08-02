@@ -1,7 +1,7 @@
 var vows = require('vows');
 var assert = require('assert');
 var util = require('util');
-var AnonymousStrategy = require('../lib/passport-anonymous/strategy');
+var AnonymousStrategy = require('../lib/strategy');
 
 
 vows.describe('AnonymousStrategy').addBatch({

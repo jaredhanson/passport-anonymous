@@ -2,7 +2,12 @@
   "name": "passport-anonymous",
   "version": "0.1.0",
   "description": "Anonymous authentication strategy for Passport.",
-  "keywords": ["passport", "anonymous", "authn", "authentication"],
+  "keywords": [
+    "passport",
+    "authn",
+    "authentication",
+    "anonymous"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jaredhanson/passport-anonymous.git"
@@ -15,19 +20,31 @@
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib",
   "dependencies": {
-    "passport": "~0.1.1"
+    "passport-strategy": "1.x.x"
   },
   "devDependencies": {
     "vows": "0.7.x"
   },
+  "engines": { "node": ">= 0.4.0" },
   "scripts": {
-    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+    "test": "node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "testling": {
+    "browsers": [
+      "chrome/latest"
+    ],
+    "harness" : "mocha",
+    "files": [
+      "test/bootstrap/testling.js",
+      "test/*.test.js"
+    ]
+  }
 }

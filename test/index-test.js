@@ -7,10 +7,6 @@ var anonymous = require('..');
 vows.describe('passport-anonymous').addBatch({
   
   'module': {
-    'should report a version': function (x) {
-      assert.isString(anonymous.version);
-    },
-    
     'should export Strategy': function (x) {
       assert.isFunction(anonymous.Strategy);
     },

@@ -1,7 +1,7 @@
 var vows = require('vows');
 var assert = require('assert');
 var util = require('util');
-var anonymous = require('passport-anonymous');
+var anonymous = require('..');
 
 
 vows.describe('passport-anonymous').addBatch({

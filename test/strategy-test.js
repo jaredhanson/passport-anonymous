@@ -6,6 +6,7 @@ var AnonymousStrategy = require('../lib/strategy');
 
 vows.describe('AnonymousStrategy').addBatch({
   
+  // ok
   'strategy': {
     topic: function() {
       return new AnonymousStrategy();

@@ -1,8 +1,10 @@
 # passport-anonymous
 
-[![Build](https://travis-ci.org/jaredhanson/passport-anonymous.png)](http://travis-ci.org/jaredhanson/passport-anonymous)
+[![Build](https://travis-ci.org/jaredhanson/passport-anonymous.png)](https://travis-ci.org/jaredhanson/passport-anonymous)
 [![Coverage](https://coveralls.io/repos/jaredhanson/passport-anonymous/badge.png)](https://coveralls.io/r/jaredhanson/passport-anonymous)
-[![Dependencies](https://david-dm.org/jaredhanson/passport-anonymous.png)](http://david-dm.org/jaredhanson/passport-anonymous)
+[![Quality](https://codeclimate.com/github/jaredhanson/passport-anonymous.png)](https://codeclimate.com/github/jaredhanson/passport-anonymous)
+[![Dependencies](https://david-dm.org/jaredhanson/passport-anonymous.png)](https://david-dm.org/jaredhanson/passport-anonymous)
+[![Tips](http://img.shields.io/gittip/jaredhanson.png)](https://www.gittip.com/jaredhanson/)
 
 
 [Passport](http://passportjs.org/) strategy for anonymous authentication.

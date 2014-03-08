@@ -1,3 +1,6 @@
+/* global describe, it, expect, before */
+/* jshint expr: true */
+
 var chai = require('chai')
   , Strategy = require('../lib/strategy');
 
@@ -16,7 +19,7 @@ describe('Strategy', function() {
     before(function(done) {
       chai.passport(strategy)
         .pass(function() {
-          ok = true
+          ok = true;
           done();
         })
         .req(function(req) {

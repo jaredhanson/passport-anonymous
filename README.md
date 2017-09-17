@@ -66,3 +66,5 @@ For a complete, working example, refer to the [login example](https://github.com
 [The MIT License](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2012-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-anonymous'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-anonymous.svg' /></a>
